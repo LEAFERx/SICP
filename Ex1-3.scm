@@ -1,1 +1,8 @@
-(define (proc a b c) (- (+ a b c) (min a b c)))
+(define (smaller-or-equal x y) (or (< x y) (= x y)))
+
+(define (min-of-three a b c) 
+    (cond ((and (smaller-or-equal a b) (smaller-or-equal a c)) a)
+          ((and (smaller-or-equal b a) (smaller-or-equal b c)) b)
+          (else c)))
+
+(define (sum a b c) (- (+ a b c) (min-of-three a b c)))
