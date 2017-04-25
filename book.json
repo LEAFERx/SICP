@@ -1,5 +1,7 @@
-// book.json
 {
+  "gitbook": "2.x.x",
+  "title": "SICP",
+  "description": "Exersices Solutions of SICP",
   "plugins": [
     "prism",
     "-highlight"
