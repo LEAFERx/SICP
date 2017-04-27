@@ -4,6 +4,7 @@
   "languaue": "zh",
   "plugins": [
     "prism",
-    "-highlight"
+    "-highlight",
+    "mathjax"
   ]
 }
