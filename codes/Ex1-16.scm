@@ -1,5 +1,5 @@
-(define (odd? n)
-    (= (remainder n 2) 1))
+; (define (odd? n) (= (remainder n 2) 1))
+
 (define (sqaure x) (* x x))
 
 (define (fast-expt-iter base index result)
